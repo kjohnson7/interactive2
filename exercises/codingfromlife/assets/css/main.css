@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #d9d9d9;
+	position: relative;
+}
+
+
+#globe{
+	width:260px;
+	height:260px;
+	background:white;
+	border-radius:130px;
+	top:140px;
+	left:380px;
+	position:absolute;
+	box-shadow: 2px 8px 22px #bbbbbb;
+	z-index: 10;
+
+}
+
+#pumpkin{
+	width:120px;
+	height:120px;
+	background:#ff9933;
+	border-radius:50%;
+	top:220px;
+	left:660px;
+	position:absolute;
+	box-shadow: 2px 8px 22px #bbbbbb;
+	z-index: 9;
+}
+
+#mat{
+	width:500px;
+	height:200px;
+	background-color: #99ff33;
+	transform:skewX(130deg);
+	top:300px;
+	left:200px;
+	position:absolute;
+
+}
+
+#jarbottom{
+	width:120px;
+	height:200px;
+	left:200px;
+	top:250px;
+	position:absolute;
+	background-color: gray;
+	box-shadow: 2px 8px 22px #bbbbbb;
+	opacity:.4;
+	border-radius:0px 0px 20px 20px;
+	z-index: 10;
+
+}
+
+#jarmid{
+	border-bottom: 30px solid gray;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 120px;
+	z-index:10;
+	opacity:.4;
+	left:200px;
+	top:218px;
+	position:absolute;
+}
+
+#jartop{
+	width:80px;
+	height:20px;
+	left:220px;
+	top:200px;
+	position:absolute;
+	opacity:.4;
+	background-color: gray;
+}
+
+.stem{
+	height:350px;
+	width:10px;
+	background-color: green;
+	z-index: 2;
+
+}
+
+.stem2{
+	height:390px;
+	width:10px;
+	background-color: green;
+	z-index: 2;
+}
+
+.petal1{
+	width:30px;
+	height:40px;
+	background-color: purple;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 11;
+}
+
+.petal2{
+	width:40px;
+	height:70px;
+	background-color: purple;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 11;
+}
+
+.pollen{
+	width:10px;
+	height:20px;
+	background-color: yellow;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 11;
+
+}
+
