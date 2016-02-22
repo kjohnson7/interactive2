@@ -29,3 +29,24 @@ a:hover {
 /* selected link */
 a:active {
     color: yellow;
+}
+
+
+
+@-webkit-keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: #00ff00 }
+}
+
+@-moz-keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: #00ff00 }
+}
+
+.cursor {
+    width:200px;
+    height:300px;
+    border-left:10px solid #00ff00;
+	-webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+}
