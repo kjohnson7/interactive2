@@ -1,0 +1,312 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.master{
+	position:relative;
+	left:50px;
+}
+
+.master2{
+	position:relative;
+	left:50px;
+	top:300px;
+}
+
+
+
+.A {
+	position:absolute;
+	left:50px;
+	top:50px;
+}
+
+.B{
+	position:absolute;
+	left:80px;
+	top:50px;
+}
+
+.C{
+	position:absolute;
+	left:90px;
+	top:50px;
+}
+
+.D{
+	position:absolute;
+	left:160px;
+	top:50px;
+}
+
+.E{
+	position:absolute;
+	left:280px;
+	top:50px;
+}
+
+.F{
+	position:absolute;
+	left:360px;
+	top:50px;
+}
+
+.G{
+	position:absolute;
+	left:470px;
+	top:50px;
+}
+
+.H{
+	position:absolute;
+	left:560px;
+	top:50px;
+}
+
+.I{
+	position:absolute;
+	left:690px;
+	top:50px;
+}
+
+.J{
+	position:absolute;
+	left:770px;
+	top:40px;
+}
+
+.K{
+	position:absolute;
+	left:870px;
+	top:50px;
+}
+
+.L{
+	position:absolute;
+	left:980px;
+	top:50px;
+}
+
+.M {
+	position:absolute;
+	left:50px;
+	top:220px;
+	 
+}
+
+.N {
+	position:absolute;
+	left:190px;
+	top:210px;
+	 
+}
+
+.O {
+	position:absolute;
+	left:140px;
+	top:210px;
+	 
+}
+
+.Oright {
+	position:absolute;
+	left:440px;
+	
+		-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+	 
+}
+
+.P {
+	position:absolute;
+	left:370px;
+	top:205px;
+	 
+}
+
+.Q {
+	position:absolute;
+	left:370px;
+	top:210px;
+	 
+}
+
+.R{
+	position:absolute;
+	left:620px;
+	top:205px;
+}
+
+.S{
+	position:absolute;
+	left:810px;
+	top:205px;
+}
+
+.T{
+	position:absolute;
+	left:920px;
+	top:210px;
+}
+
+.U{
+	position:absolute;
+	left:1040px;
+	top:210px;
+}
+
+.V{
+	position:absolute;
+	left:1160px;
+	top:215px;
+}
+
+.W{
+	position:absolute;
+	left:190px;
+	top:500px;
+}
+
+.X{
+	position:absolute;
+	left:330px;
+	top:390px;
+}
+
+.Y{
+	position:absolute;
+	left:380px;
+	top:400px;
+}
+
+.Z{
+	position:absolute;
+	left:510px;
+	top:390px;
+}
+
+.one{
+	position:absolute;
+	left:710px;
+	top:390px;
+}
+
+.two{
+	position:absolute;
+	left:780px;
+	top:390px;
+}
+
+.three{
+	position:absolute;
+	left:860px;
+	top:385px;
+}
+
+.four{
+	position:absolute;
+	left:1110px;
+	top:390px;
+}
+
+.five{
+	position:absolute;
+	left:1200px;
+	top:380px;
+}
+
+.six{
+	position:absolute;
+	left:100px;
+	top:550px;
+}
+
+.dot1 {
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background-color:black;
+	position: absolute;
+}
+
+.dot2 {
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background-color:black;
+	position: absolute;
+}
+
+.straightline{
+	position:absolute;
+	
+}
+
+.angleline{
+	position:absolute;
+	 -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+	
+}
+
+.anglelineneg{
+	position:absolute;
+	 -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+	
+}
+
+.anglelinelong{
+	position:absolute;
+	 -ms-transform: rotate(-25deg); /* IE 9 */
+    -webkit-transform: rotate(-25deg); /* Chrome, Safari, Opera */
+    transform: rotate(-25deg);
+	
+}
+
+.anglelineother{
+	position:absolute;
+	 -ms-transform: rotate(25deg); /* IE 9 */
+    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+	
+}
+
+.crossbar1{
+	position:absolute;
+}
+
+.chevron{
+	position:absolute;
+}
+
+.bowl{
+	position:absolute;
+}
+
+.dbowl{
+	position:absolute;
+	-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+}
+
+.tops{
+	position:absolute;
+	 -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+
+
+
+
