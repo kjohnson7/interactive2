@@ -225,6 +225,54 @@ transform: scale(-1, 1);
 	top:550px;
 }
 
+.seven{
+	position:absolute;
+	left:280px;
+	top:550px;
+}
+
+.eight{
+	position:absolute;
+	left:350px;
+	top:570px;
+}
+
+.nine{
+	position:absolute;
+	left:650px;
+	top:730px;
+}
+
+.zero{
+	position:absolute;
+	left:550px;
+	top:575px;
+}
+
+.exclamation{
+	position:absolute;
+	left:900px;
+	top:575px;
+}
+
+.period{
+	position:absolute;
+	left:1070px;
+	top:700px;
+}
+
+.question{
+	position:absolute;
+	left:980px;
+	top:575px;
+}
+
+.quotes{
+	position:absolute;
+	left:1000px;
+	top:575px;
+}
+
 .dot1 {
 	width:20px;
 	height:20px;
@@ -276,6 +324,13 @@ transform: scale(-1, 1);
     -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
     transform: rotate(25deg);
 	
+}
+
+.rotateninety{
+	position:absolute;
+	 -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
 }
 
 .crossbar1{
