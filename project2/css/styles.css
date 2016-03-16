@@ -10,7 +10,11 @@ a{
 	text-decoration:none;
 }
 
-
+.specimen{
+	position:relative;
+	left:50px;
+	top:100px;
+}
 
 .master{
 	position:relative;
