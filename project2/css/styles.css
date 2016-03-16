@@ -5,6 +5,11 @@ body{
 
 }
 
+a{
+	color:black;
+	text-decoration:none;
+}
+
 
 
 .master{
@@ -157,7 +162,7 @@ body{
 
 
 .masterfifteen{
-	position:relative;
+	position:absolute;
 	left:50px;
 	top:4250px;
 	 -ms-transform: rotate(180deg); /* IE 9 */
@@ -210,11 +215,11 @@ body{
 
 .mastertwentyone{
 	position:relative;
-	left:10px;
+	left:-10px;
 	top:4460px;
-	-ms-transform: skew(30deg, 20deg); /* IE 9 */
-    -webkit-transform: skew(30deg, 20deg); /* Safari */
-    transform: skew(30deg, 20deg);
+	-ms-transform: skew(40deg, 30deg); /* IE 9 */
+    -webkit-transform: skew(40deg, 30deg); /* Safari */
+    transform: skew(40deg, 30deg);
 }
 
 
@@ -236,10 +241,22 @@ body{
     transform: skew(70deg, 60deg);
 }
 
-.arrow{
+.mastertwentyfour{
 	position:absolute;
-	left:400px;
-	top:6080px;
+	left:10px;
+	top:3760px;
+	-ms-transform: skew(30deg, 20deg); /* IE 9 */
+    -webkit-transform: skew(30deg, 20deg); /* Safari */
+    transform: skew(30deg, 20deg);
+}
+
+.mastertwentyfive{
+	position:absolute;
+	left:-10px;
+	top:3260px;
+	-ms-transform: skew(30deg, 20deg); /* IE 9 */
+    -webkit-transform: skew(30deg, 20deg); /* Safari */
+    transform: skew(30deg, 20deg);
 }
 
 .A {
@@ -492,6 +509,29 @@ transform: scale(-1, 1);
 	left:980px;
 	top:575px;
 }
+
+@-webkit-keyframes rotate {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+#questionlink{
+position:absolute;
+top:6400px;
+left:650px;
+font-family:helvetica;
+font-size:172px;
+  color:black;
+	-webkit-animation: rotate 3s linear infinite;
+}
+
+
+
 
 .quotes{
 	position:absolute;
