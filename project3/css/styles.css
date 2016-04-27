@@ -1,174 +1,263 @@
 
 
-body{
+body, html{
 	padding:0;
 	margin:0;
 }
 
-h1{
-	font-family: 'Oswald', sans-serif;
-	font-size:42px;
-	color:white;
-	border:0;
-	margin:0;
-	padding:0;
-	text-align:center;
 
-}
-
-
-
-.topnavbar{
+.topnavbar,
+.redbar {
 	width:100%;
 	height:150px;
 	background: #b72323;
-	padding:0;
-	margin:0;
-	border:0;
 
-	
 }
+
+.bluebar{
+	width:100%;
+	height:150px;
+	background:#392d91;
+	margin-top:100px;
+	float:left;
+}
+
+.redbar{
+	float:left;
+}
+
+
+
+
+
 
 
 /* Text
 -------------------------------------------------- */
 
-	.navtitle{
-		font-family: 'Oswald', sans-serif;
-		font-weight:700;
-		color:white;
-		font-size: 58px;
-		letter-spacing: 6px;
-		padding-left:2em;
-		padding-top:.2em;
+.logo {
+	width: 30%;
+	text-align: center;
+	margin-right: 0;
+	margin-left: 0;
+	padding-right: 0;
+	float: left;
+	padding-top: 20px;
+}
 
-		
-	}
-	
-	.navsubtitle{
-		font-family: 'Oswald', sans-serif;
-		font-weight:300;
-		color:white;
-		font-size: 18px;
-		padding-left:6em;
-		padding-top:.2em;
-		line-height: 2px;
-		letter-spacing: 2px;
-	
-	}
-	
-	.aboutme{
-		font-family: 'Raleway', sans-serif;
-		font-size:24px;
-		color:white;
-		font-weight:300;
-		
-	}
+.navlinks {
+	width: 50%;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top:40px;
+	float: left;
+}
 
-	ul {
-    text-align: right;
-    width: 80%;
-  	font-family: 'Raleway', sans-serif;
-  	font-size:24px;
-    height: 70%;
-   
-	}
-	li {
-	    display:inline;
-	}
-	ul a {
-	    color: white;
-	    padding: 0 40px;
-	    text-decoration: none;
-	}
-	ul a:hover {
-    color: #333;
+.navtitle {
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	color:white;
+	font-size: 58px;
+	letter-spacing: 6px;
+}
+
+.navsubtitle{
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	color:white;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.aboutme{
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:24px;
+	width:40%;
+	padding:100px 50px 0px 50px;
+	float:left;
+}
+
+.video{
+	width:40%;
+	float:left;
+	padding: 100px 50px 0px 50px;
+}
+
+.moreabout{
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:24px;
+	width:40%;
+	float:left;
+	padding-top:100px;
+	padding-left:60px;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size:42px;
+	letter-spacing: 1px;
+	color:white;
+	border:0;
+	margin:0;
+	padding:0;
+	text-align:center;
+	padding-top:1em;
+
+}
+
+ul {
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	font-size:24px;
+}
+
+li {
+	display:inline;
+}
+
+li a {
+	color: white;
+	padding: 0 40px;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #333;
 }
 
 /* Image
 -------------------------------------------------- */
 
-	.fullbleed{
-		width:100%;
-	}
 
+
+.row {
+    display: flex;
+    box-orient: horizontal;
+    flex-direction: row;
+    box-pack: center;
+    justify-content: center;
+    box-align: center;  
+    align-items: center;
+
+}
+
+.rowitem {
+    box-flex: 1;
+    flex: 1 1 auto; 
+    text-align: center;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	max-width:100%;
+}
+
+.eagle{
+	width:50%;
+	padding-top:100px;
+	padding-bottom:100px;
+	float:left;
+	
+}
 
 
 
 /* iPad 
 -------------------------------------------------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media all and (max-width : 1024px){
 
-	/* Text
-	--------- */
-	
-	
+	.topnavbar,.navlinks{
+		width:100%;
+		
+	}
+
 	.topnavbar{
-	width:100%;
-	height:250px;
-	background: #b72323;
-	padding:0;
-	margin:0;
+		height:250px;
+	}
 
-	
-}
 
 	.navtitle{
-		font-family: 'Oswald', sans-serif;
-		font-weight:700;
-		color:white;
 		font-size: 58px;
-		letter-spacing: 6px;
-		padding-left:2em;
-		padding-top:.2em;
-		text-align: center;
-
-		
 	}
 	
 	.navsubtitle{
-		font-family: 'Oswald', sans-serif;
-		font-weight:300;
-		color:white;
 		font-size: 18px;
-		padding-left:6em;
-		padding-top:.2em;
-		line-height: 2px;
-		letter-spacing: 2px;
+
+	}
+
+	
+	h1 {
+		font-family: 'Oswald', sans-serif;
+		font-size:32px;
+		padding-top:2em;
+	}
+
+	.aboutme{
+		width:100%;
+		padding:0;
 		text-align: center;
+	}
+
+	.moreabout{
+		font-size:18px;
+	}
+
 	
-	}
-
-
-
-		ul {
-    text-align: center;
-    width: 100%;
-  	font-family: 'Raleway', sans-serif;
-  	font-size:24px;
-    height: 50%;
-   
-	}
-	li {
-	    display:inline;
-	}
-	ul a {
-	    color: white;
-	    padding: 50 40px;
-	    text-decoration: none;
-	}
-	ul a:hover {
-    color: #333;
-}
 	
-	h1{
-	font-family: 'Oswald', sans-serif;
-	font-size:32px;
-	color:white;
-	border:0;
-	text-align: center;
+	
+	
+	/* Image
+	--------- */
 
-}
+	
+
+	.video{
+		margin-left:20%;
+	}
+
+
+/* mobile 
+-------------------------------------------------- */
+@media all and (max-width : 768px){
+
+	.topnavbar,.navlinks{
+		width:100%;
+	}
+
+	/*.redbar{
+		height:250px;
+	}*/
+
+
+	.navtitle{
+		font-size: 32px;
+	}
+	
+	.navsubtitle{
+		font-size: 12px;
+
+	}
+
+	.aboutme{
+		padding:0;
+	}
+
+	.moreabout{
+		width:100%;
+		text-align: center;
+		padding:0;
+
+	}
+
+	
+	h1 {
+		font-family: 'Oswald', sans-serif;
+		font-size:24px;
+
+	}
 	
 	
 	
@@ -179,21 +268,15 @@ h1{
 		width:100%;
 	}
 
-/* Mobile
--------------------------------------------------- */
+	.video,.aboutme{
+		width:100%;
+		padding:0;
+		text-align: center;
+	}
 
-@media screen and (max-width: 768px) {
+	.eagle{
+		width:100%;
 
-	/* Text
-	--------- */
-
-
-
-
-
-	/* Image
-	--------- */
-
-
+	}
 
 }
