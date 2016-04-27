@@ -84,7 +84,7 @@ body, html{
 	padding: 100px 50px 0px 50px;
 }
 
-.moreabout{
+#moreabout{
 	font-family: 'Oswald', sans-serif;
 	font-weight:300;
 	font-size:24px;
@@ -223,6 +223,9 @@ img {
 -------------------------------------------------- */
 @media all and (max-width : 768px){
 
+	
+
+
 	.topnavbar,.navlinks{
 		width:100%;
 	}
@@ -249,6 +252,7 @@ img {
 		width:100%;
 		text-align: center;
 		padding:0;
+
 
 	}
 
