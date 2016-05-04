@@ -3,7 +3,9 @@
 body, html{
 	padding:0;
 	margin:0;
+	width:100%;
 }
+
 
 
 .topnavbar,
@@ -22,13 +24,22 @@ body, html{
 	float:left;
 }
 
-.redbar{
+.redbarbig{
+	width:100%;
+	height:450px;
+	background:#b72323;
 	float:left;
+	margin-top:100px;
 }
 
+.suddiklogo{
+	width:600px;
+	padding-top:5em;
+}
 
-
-
+.redbar {
+	float:left;
+}
 
 
 
@@ -53,6 +64,15 @@ body, html{
 	float: left;
 }
 
+.navlinksbtm {
+	width: 70%;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top:40px;
+	float: left;
+	text-align: center;
+}
+
 .navtitle {
 	font-family: 'Oswald', sans-serif;
 	font-weight:700;
@@ -70,7 +90,7 @@ body, html{
 }
 
 .aboutme{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
 	font-size:24px;
 	width:40%;
@@ -79,20 +99,69 @@ body, html{
 }
 
 .video{
-	width:40%;
+	width:30%;
 	float:left;
 	padding: 100px 50px 0px 50px;
 }
 
-#moreabout{
-	font-family: 'Oswald', sans-serif;
+#moreabout-text{
+	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
 	font-size:24px;
 	width:40%;
 	float:left;
 	padding-top:100px;
 	padding-left:60px;
+	padding-bottom:100px;
+
 }
+
+#wall-container{
+	width: 100%;
+
+}
+
+.wall{
+	width:43%;
+	height:100%;
+	float:left;
+	padding: 3em 0 0 4em;
+}
+
+.twitter{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:24px;
+	float:left;
+	width:35%;
+	padding:100px;
+}
+
+.twitter1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:24px;
+	float:left;
+	width:35%;
+	margin-left:200px;
+}
+
+.twitlogo{
+	float:left;
+	margin-top:100px;
+	width:100%;
+}
+
+#bottom{
+	width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size: 18px;
+	float:left;
+	text-align: center;
+}
+
+
 
 h1{
 	font-family: 'Oswald', sans-serif;
@@ -131,28 +200,11 @@ li a:hover {
 -------------------------------------------------- */
 
 
-
-.row {
-    display: flex;
-    box-orient: horizontal;
-    flex-direction: row;
-    box-pack: center;
-    justify-content: center;
-    box-align: center;  
-    align-items: center;
-
-}
-
-.rowitem {
-    box-flex: 1;
-    flex: 1 1 auto; 
-    text-align: center;
-}
-
 img {
 	margin: 0;
 	padding: 0;
 	max-width:100%;
+	margin-bottom: -5px;
 }
 
 .eagle{
@@ -163,124 +215,101 @@ img {
 	
 }
 
+.gif{
+	display:none;
+	float:left;
+	width:100%;
+}
+
 
 
 /* iPad 
 -------------------------------------------------- */
 @media all and (max-width : 1024px){
 
-	.topnavbar,.navlinks{
-		width:100%;
+	
+
+		.topnavbar{
+			height:250px;
+
+		}
+
+		.navtitle{
+			font-size: 58px;
+		}
+
+		.navsubtitle{
+			font-size: 18px;
+		}
+
+		.logo {
+			width: 100%;
+		}
+
+		ul,
+		li{
+			width: 100%;
+			text-align: center;
+			padding: 0;
+			margin: 0;
+
+		}
+
+		.video{
+			display:none;
+		}
+
+		.navlinks {
+			width: 100%;
+		}
+		.navlinksbtm {
+			width:100%;
+		}
+
+		.short-title h1{
+			padding-top:2.3em;
+		}
+
+		.long-title h1{
+			padding-top:1.7em;
+
+		}
+
+		.aboutme,
+		.video,
+		#moreabout-text,
+		.twitter,
+		.twitter1 {
+			width:90%;
+			padding:1em;
+			text-align: center;
+			font-size:18px;
+		}
+
+		.wall{
+			width:100%;
+			padding: 3em 0em 3em 0em;
+		}
+
+
+
+		h1 {
+			font-size:24px;
+		}
+
+
+		.eagle{
+			width: 100%;
+			padding-top:0px;
+			padding-bottom:10px;
+			margin-left:0px;
+			margin-top:0px;
+		}
+
+		.gif{
+			display:block;
+			text-align: center;
+		}
+
 		
-	}
-
-	.topnavbar{
-		height:250px;
-	}
-
-
-	.navtitle{
-		font-size: 58px;
-	}
-	
-	.navsubtitle{
-		font-size: 18px;
-
-	}
-
-	
-	h1 {
-		font-family: 'Oswald', sans-serif;
-		font-size:32px;
-		padding-top:2em;
-	}
-
-	.aboutme{
-		width:100%;
-		padding:0;
-		text-align: center;
-	}
-
-	.moreabout{
-		font-size:18px;
-	}
-
-	
-	
-	
-	
-	/* Image
-	--------- */
-
-	
-
-	.video{
-		margin-left:20%;
-	}
-
-
-/* mobile 
--------------------------------------------------- */
-@media all and (max-width : 768px){
-
-	
-
-
-	.topnavbar,.navlinks{
-		width:100%;
-	}
-
-	/*.redbar{
-		height:250px;
-	}*/
-
-
-	.navtitle{
-		font-size: 32px;
-	}
-	
-	.navsubtitle{
-		font-size: 12px;
-
-	}
-
-	.aboutme{
-		padding:0;
-	}
-
-	.moreabout{
-		width:100%;
-		text-align: center;
-		padding:0;
-
-
-	}
-
-	
-	h1 {
-		font-family: 'Oswald', sans-serif;
-		font-size:24px;
-
-	}
-	
-	
-	
-	/* Image
-	--------- */
-
-	.fullbleed{
-		width:100%;
-	}
-
-	.video,.aboutme{
-		width:100%;
-		padding:0;
-		text-align: center;
-	}
-
-	.eagle{
-		width:100%;
-
-	}
-
 }
